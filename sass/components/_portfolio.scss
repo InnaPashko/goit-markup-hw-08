@@ -24,7 +24,7 @@
         color: var(--logo-color);  
     }
     
-    .&-button-item {
+    &-button-item {
     margin-right: 8px;
     }
     &-item:last-child {
@@ -38,12 +38,14 @@
     .writings{
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 94px;
+    /* padding-bottom: 94px; */
+    gap: 30px;
         
     &-list {
-        width: calc((100% - 60px ) / 3 );  
+        width: 100%;
+        /* width: calc((100% - 60px ) / 3 );  
         margin-right: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 30px; */
            }
         &-list:hover &-top-text {
                transform: translateY(0);
